@@ -1,0 +1,80 @@
+.background {
+  background-color: #37474f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: "center";
+  }
+
+  .title{
+    color: #ffffff;
+    
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 100px;
+    padding-bottom: 1%;
+    margin: 100px;
+  }
+
+  .textField{
+    background-color: #ffffff;
+    color: #62727b;
+    border: #102027;
+    padding: 5%;
+    margin: 20px;
+    border-radius: 10px;
+    border-width:5%;
+    border-style: solid;
+    text-align: middle;
+  }::placeholder{
+    color: #ffffff;
+  }
+  .textField:hover{
+    background-color: #62727b;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 5%;
+    margin: 20px;
+    text-align: middle;
+    transition-duration: 0.3s;
+  }::placeholder{
+    color: #000000;
+  }
+
+  .addItem{
+    background-color: #ffffff;
+    border: #102027;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1%;
+    margin: 100px;
+    text-align: middle;
+    font-size: large;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .addItem:hover{
+    background-color: #102027;
+    border: #102027;
+    border-radius: 15px;
+    border-style: solid;
+    transition-duration: 0.5s;
+    text-align: middle;
+    margin: 100px;
+    color: #ffffff;
+    
+    padding: 50px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ 
+  .container{
+    display:grid;
+    grid-template-columns: auto auto;
+
+}
